@@ -51,7 +51,14 @@ nav{
     color: var(--blanco);
 }
 
+@media ( min-width: 400px){
+    body{
+        background-color: rgb(80, 177, 247);
+    }
+}
+
 .navegacion.principal{
+    text-align: center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;

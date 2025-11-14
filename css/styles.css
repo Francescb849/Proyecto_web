@@ -30,16 +30,16 @@ h1{
 
 }
 h2{
-    color: var(--primario);
-    font-size: 1,5rem;
-    font-weight: 400
+    color:blue;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 h3{
     color:var(--secundario);
 }
 
 p{
-    font-size: 2,6rem
+    font-size: 1rem;
 }
 
 nav{
@@ -58,7 +58,7 @@ nav{
 }
 
 .navegacion.principal{
-    text-align: center;
+    text-align:center;
     color: var(--blanco);
     text-decoration: none;
     font-size: 2rem;
@@ -76,14 +76,14 @@ nav{
 
 /*estilos para el hero*/
 .hero{
-    background-image: url( "../css/hero-1024x683.jpg");
+    background-image: url( "../img/hero-1024x683.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height:45rem;
 }
 
-.conido-hero{
-    background-color: cornflowerblue;
-    color: white;
+.contenido-hero{
+    background-color: rgb(221, 198, 210);;
+    color: black;
     position: absolute;
 }

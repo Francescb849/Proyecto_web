@@ -73,3 +73,17 @@ nav{
     color: var(--oscuro);
     background-color: var(--secundario);
 }
+
+/*estilos para el hero*/
+.hero{
+    background-image: url( "../css/hero-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:45rem;
+}
+
+.conido-hero{
+    background-color: cornflowerblue;
+    color: white;
+    position: absolute;
+}

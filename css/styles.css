@@ -1,14 +1,14 @@
 :root{
-    --primario:  blue;
-    --secundario: blueviolet;
-    --blanco:#ffffff;
-    --oscuro:#03053a;
-    --gris:#babcbe;
-    --tamaño-fuente: fuente 15px;
-}
 
+    --primario: #3A6DFF;
+    --secundario: #9B6BFF;
+    --fondo: #F4F4F8;
+    --texto: #222222;
+    --blanco: #FFFFFF;
+    --tamaño-fuente:15px;
+}
 html{
-    font-size:62.5% ;
+    font-size:% ;
 }
 body{
 font-size:var(--tamaño-fuente);
@@ -23,14 +23,14 @@ margin: 0;
 }
 
 h1{
-    color: red;
-    background-color: blanchedalmond;
+    color:var(--primario);
+    background-color: rgb(220, 176, 112);
     text-align: center;
     font-size: 2.5rem; 
 
 }
 h2{
-    color:blue;
+    color: var(--secundario);
     font-size: 1.5rem;
     font-weight: 400;
 }
@@ -43,8 +43,7 @@ p{
 }
 
 nav{
-    background-color: rgb(33, 221, 52);
-    color:var(--blanco);
+color:var(--blanco);
 }
 .navegacion.principal{
     display: flex;
@@ -157,5 +156,95 @@ background-color: var(--secundario);
     background-color: var(--primario);
 }
 
+.icono{
+    background-color: var(--secundario);
+    height: 5rem;
+    width:5rem;
+    border-radius:50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s ease;
+}
 
+.section{
+    margin-bottom: 3rem;
+    padding: 1.5rem 2rem;
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+
+table{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+ 
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(221, 21, 21);
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid white;
+}
+
+.hora{
+    background-color: beige;
+    color: chocolate;
+    font-weight: bold;
+    width: 120px;
+}
+
+.Patio{
+    background-color: coral;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Aplicacions{
+    background-color: darkseagreen;
+}
+.Sistemas{
+    background-color: darkmagenta;
+    color: white;
+}
+
+.Angles{
+    background-color: chartreuse;
+}
+
+.Digitalització{
+    background-color: deeppink;
+    color: white;
+}
+
+.Xarxes{
+    background-color: rgb(49, 146, 159);
+}
+.Muntatge{
+    background-color: khaki;
+}
+.IPO{
+    background-color: lightpink;
+}
 

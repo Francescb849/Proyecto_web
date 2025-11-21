@@ -42,6 +42,10 @@ p{
     font-size: 1rem;
 }
 
+fieldset{
+    border: none;
+}
+
 nav{
 color:var(--blanco);
 }
@@ -100,34 +104,33 @@ margin: 0;
 }
 
 header {
-  position: relative;
-  z-index: 1;
+position: relative;
+z-index: 1;
 }
 nav.contenedor {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  padding: 0.6rem 1rem;
-  background-color: rgb(33, 221, 52);
-  z-index: 5;
-  position: relative; 
+display: flex;
+gap: 1rem;
+align-items: center;
+padding: 0.6rem 1rem;
+background-color: rgb(33, 221, 52);
+z-index: 5;
+position: relative; 
 }
 
-
 .contenido-hero {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 320px;               
-  max-width: 80%;               
-  padding: 1.5rem;
-  border-radius: 8px;
-  background-color: rgba(255,255,255,0.85); 
-  color: #0b0b0b;
-  z-index: 10;                 
-  box-shadow:none;
-  text-align: left;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 320px;               
+max-width: 80%;               
+padding: 1.5rem;
+border-radius: 8px;
+background-color: rgba(255,255,255,0.85); 
+color: #0b0b0b;
+z-index: 10;                 
+box-shadow:none;
+text-align: left;
 }
 .boton{
 background-color: var(--secundario);
@@ -246,5 +249,14 @@ th{
 }
 .IPO{
     background-color: lightpink;
+}
+.formulario{
+    background-color: rgb(156, 154, 154);
+    width: min(60rem,100%);
+    padding:2rem;
+    border-radius:2rem;
+.campo label{
+    color: var(--secundario);
+    display: block;
 }
 

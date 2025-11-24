@@ -9,16 +9,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+
 </head>
+
 <body>
     <header>
         <h1>Bienvenidos a Francesc.busquets</h1>  
+    </header>
+    <div class="nav-bg">
         <nav class="contenedor">
-        <a class="boton" href="index.html">Home</a>
-        <a class="boton" href="massobremi.html">Más sobre mi</a>
-    </nav>
+            <a class="boton" href="index.html">Home</a>
+            <a class="boton" href="massobremi.html">Más sobre mi</a>
+        </nav>
+    </div>
     <section class="hero">
-        <div class="contenido-hero">
     </nav>
         <div class="contenido-hero">
         <h2>Mi web personal</h2>
@@ -26,7 +30,6 @@
             <p> Soy una alumno de FP de Grado Medio de Sistemas microinforáticos y redes, actualmente estoy cursando primero.</p>
         </div>
     </section>
-    </header>
     <main>
         <h2>Mi contenido</h2> 
         <div class="micontenido">
@@ -39,58 +42,53 @@
                 <p>Sígueme en mi canal de You Tube donde subo shorts curiosos relacionados con el futbol. Te dejo el enlace:</p>
                 <a href="https://www.youtube.com/@reelsfutbol-w6w">reelsfutbol-w6w</a>
             </section>
-            <section>
+            <section class="contenido">
                 <h3>Historias</h3>
                 <div>
                     <div class="icono">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-article"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" /><path d="M7 8h10" /><path d="M7 12h10" /><path d="M7 16h10" /></svg>
                     </div>
                 </div>
-                Lorem ipsum dolor, sit amet elit. Ducimus praesentium est maxime molestias iure odio dolorum eum, debitis enim laudantium provident saepe vero nulla itaque excepturi necessitatibus, tempore ratione rerum!
+                <p>Lorem ipsum dolor, sit amet elit. Ducimus praesentium est maxime molestias iure odio dolorum eum, debitis enim laudantium provident saepe vero nulla itaque excepturi necessitatibus, tempore ratione rerum!</p> 
             </section>
-            <section>
-                <h2>Contacto</h2>
+            <section class="contenido">
+                <h2>Galeria</h2>
                 <div class="icono">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-phone-incoming"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /><path d="M15 9l5 -5" /><path d="M15 5l0 4l4 0" /></svg>
                 </div>
-                <p>Contactame enviandome un correo directamene a fbusquetsf@esliceu.net o por el formulario.</p>
-            <h2>Formulario</h2>
-            <fieldset>
-                <legend></legend><strong>Contáctame enviando tus datos </legend></strong>
-                <form class="formulario"  action="">
-            <div class="contenedor-campos"></div>
-                <div class="campo">
-                <div>
-            <label for=""><strong>Nombre:</strong></label>
-            <input class="input-text" type="text"nombre placeholder="Tu nombre">
-                </div>
-            </div>
-            <div class="campo">
-            <div>
-                <label for=""><strong>Teléfono:</strong></label>
-                <input class="input-text" type="tel" name="telefono" id="" placeholder="Tu Teléfono">
-            </div>
-            </div>
-            <div class="campo">
-            <div>
-                <label for="correo"> <strong>Correo:</strong></label>
-                <input class="input-text" type="tel" name="correo" id=""placeholder="Tu correo">
-            </div>
-            </div>
-            <div class="campo">
-                <div>
-                <label for="mensaje"> <strong>Mensaje:</strong></label>
-                <textarea name="mensaje" id=""></textarea>
-            </div>
-            </div>
-            </fieldset>
-            <div>
-                <input class="boton" type="submit" value="Enviar">
-            </div>
-            </div><!--contenedor-campos-->
+                <p>Para ver mis fotos</p>
+            </section>
+            <section class="contenedor">
+                <h2>Contacto</h2>
+                <form action="">
+                    <fieldset>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" placeholder="Tu Nombre">
+                        </div>
+                        
+                        <div>
+                            <label for="">Teléfono:</label>
+                            <input type="tel" name="telefono" placeholder="Tu teléfono">
+                        </div>
+                        
+                        <div>
+                            <label for="">Correo:</label>
+                            <input type="email" name="correo" placeholder="Tu email">
+                        </div>
+                        
+                        <div>
+                            <label for="">Mensaje:</label>
+                            <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div>
+                            <input  class="boton" type="submit" value="Envia">
+                        </div>
+                    
+                    </fieldset>
                 </form>
-            
-        </section>
+    </section>
     </main>
     <footer>
         <p>Todos los derechos reservados</p>
